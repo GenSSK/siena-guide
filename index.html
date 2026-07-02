@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#7b2d26">
+<meta name="description" content="イタリア・シエナのレストラン・郷土料理・観光名所ガイド。検索・タグ・地図リンク付き。">
+<title>シエナ 美食・観光ガイド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="site-title">シエナ 美食・観光ガイド</h1>
+    <p class="site-subtitle">イタリア・トスカーナ / レストラン・郷土料理・観光名所</p>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" role="tablist" aria-label="カテゴリー">
+  <button class="tab is-active" data-tab="restaurants" role="tab" aria-selected="true">
+    <span class="tab-icon">🍽️</span><span class="tab-label">レストラン</span><span class="tab-count" id="count-restaurants"></span>
+  </button>
+  <button class="tab" data-tab="foods" role="tab" aria-selected="false">
+    <span class="tab-icon">🍝</span><span class="tab-label">食べ物</span><span class="tab-count" id="count-foods"></span>
+  </button>
+  <button class="tab" data-tab="attractions" role="tab" aria-selected="false">
+    <span class="tab-icon">🏛️</span><span class="tab-label">観光</span><span class="tab-count" id="count-attractions"></span>
+  </button>
+</nav>
+
+<div class="toolbar">
+  <div class="search-wrap">
+    <span class="search-icon" aria-hidden="true">🔍</span>
+    <input type="search" id="search" placeholder="キーワードで検索（店名・料理・エリア…）" autocomplete="off" aria-label="検索">
+    <button class="search-clear" id="search-clear" aria-label="クリア" hidden>✕</button>
+  </div>
+  <div class="tagbar" id="tagbar" aria-label="タグで絞り込み"></div>
+  <div class="result-meta">
+    <span id="result-count"></span>
+    <button class="reset-btn" id="reset-filters" hidden>絞り込みを解除</button>
+  </div>
+</div>
+
+<main class="content">
+  <section id="panel-restaurants" class="panel is-active" role="tabpanel"></section>
+  <section id="panel-foods" class="panel" role="tabpanel"></section>
+  <section id="panel-attractions" class="panel" role="tabpanel"></section>
+  <p class="empty-state" id="empty-state" hidden>該当する項目がありません。検索やタグを見直してください。</p>
+</main>
+
+<footer class="site-footer">
+  <p>出典: シエナ現地調査ノート（2026）／ 画像・地図リンクは各外部サービスに帰属。</p>
+</footer>
+
+<!-- 詳細モーダル -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" data-close aria-label="閉じる">✕</button>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script src="data/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
