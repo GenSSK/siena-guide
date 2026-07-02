@@ -3,82 +3,84 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#7b2d26">
-<meta name="description" content="イタリア・シエナのレストラン・郷土料理・観光名所ガイド。検索・タグ・地図リンク付き。">
+<meta name="theme-color" content="#5e211c">
+<meta name="description" content="イタリア・トスカーナ、シエナのレストラン・郷土料理・観光名所ガイド。検索・タグ・地図付き。">
 <title>シエナ 美食・観光ガイド</title>
-<link rel="stylesheet" href="css/style.css?v=3">
-<script>
-/* セーフティネット: 何らかのスクリプトエラーで真っ白になっても原因を画面に表示する */
-window.addEventListener('error', function (e) {
-  try {
-    var box = document.getElementById('fatal-error');
-    if (!box) {
-      box = document.createElement('div');
-      box.id = 'fatal-error';
-      box.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#7b2d26;color:#fff;padding:12px 16px;font:13px/1.6 sans-serif;white-space:pre-wrap';
-      (document.body || document.documentElement).appendChild(box);
-    }
-    box.textContent = '読み込みエラーが発生しました。ページを再読み込みしてください。\n' +
-      (e.message || '') + ' ' + (e.filename ? '(' + e.filename.split('/').pop() + ':' + e.lineno + ')' : '');
-  } catch (_) {}
-}, true);
-</script>
+<link rel="stylesheet" href="css/style.css?v=4">
+<style>
+/* ===== ランディング ===== */
+.lp{min-height:100vh;min-height:100dvh;position:relative;display:flex;flex-direction:column;
+  color:#fff;overflow:hidden}
+.lp-bg{position:absolute;inset:0;z-index:0;
+  background:#3a1512 url("images/hero.jpg") center 30% / cover no-repeat}
+.lp-bg::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(60,20,15,.55) 0%,rgba(60,20,15,.25) 32%,rgba(50,18,14,.72) 78%,rgba(40,14,10,.92) 100%)}
+.lp-inner{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;
+  justify-content:flex-end;max-width:900px;margin:0 auto;width:100%;
+  padding:0 22px calc(env(safe-area-inset-bottom) + 30px)}
+.lp-top{position:relative;z-index:1;display:flex;justify-content:center;
+  padding:calc(env(safe-area-inset-top) + 20px) 22px 0}
+.lp-kicker{font-size:.72rem;letter-spacing:.42em;text-transform:uppercase;font-weight:700;
+  color:var(--accent);text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.lp-title{font-size:clamp(2.6rem,13vw,4.6rem);font-weight:800;line-height:1;margin:.2em 0 .1em;
+  letter-spacing:.02em;text-shadow:0 3px 24px rgba(0,0,0,.5)}
+.lp-sub{font-size:clamp(1rem,4.6vw,1.5rem);font-weight:700;margin:0 0 .5em;
+  text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.lp-desc{font-size:.92rem;line-height:1.75;max-width:32em;opacity:.94;margin:0 0 1.4em;
+  text-shadow:0 1px 10px rgba(0,0,0,.7)}
+.lp-stats{display:flex;gap:20px;margin:0 0 1.6em;flex-wrap:wrap}
+.lp-stat{display:flex;flex-direction:column;line-height:1.1}
+.lp-stat b{font-size:1.7rem;font-weight:800;color:#fff}
+.lp-stat span{font-size:.72rem;opacity:.85;letter-spacing:.05em}
+.lp-cta{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;
+  background:var(--accent);color:#3a2c07;font-weight:800;font-size:1.02rem;
+  padding:15px 26px;border-radius:999px;text-decoration:none;
+  box-shadow:0 8px 30px rgba(0,0,0,.35);transition:transform .12s,box-shadow .12s}
+.lp-cta:hover{transform:translateY(-2px);box-shadow:0 12px 38px rgba(0,0,0,.45)}
+.lp-links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}
+.lp-link{display:flex;flex-direction:column;align-items:center;gap:6px;
+  background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);
+  border-radius:14px;padding:14px 6px;text-decoration:none;color:#fff;
+  font-size:.78rem;font-weight:700;backdrop-filter:blur(6px);transition:.14s}
+.lp-link:hover{background:rgba(255,255,255,.24)}
+.lp-link .i{font-size:1.5rem;line-height:1}
+.lp-credit{position:relative;z-index:1;text-align:center;font-size:.64rem;opacity:.6;
+  padding:10px 22px calc(env(safe-area-inset-bottom) + 8px)}
+.lp-credit a{color:inherit}
+@media (max-width:520px){
+  .lp-links{grid-template-columns:repeat(2,1fr)}
+  .lp-stats{gap:16px}
+}
+@media (min-width:760px){
+  .lp-bg{background-position:center 28%}
+  .lp-inner{padding-bottom:56px}
+}
+</style>
 </head>
 <body>
-<noscript><p style="padding:16px;font:15px sans-serif">このサイトの表示にはJavaScriptを有効にしてください。</p></noscript>
-<header class="site-header">
-  <div class="header-inner">
-    <h1 class="site-title">シエナ 美食・観光ガイド</h1>
-    <p class="site-subtitle">イタリア・トスカーナ / レストラン・郷土料理・観光名所</p>
+<main class="lp">
+  <div class="lp-bg"></div>
+  <div class="lp-top">
+    <span class="lp-kicker">Italia · Toscana</span>
   </div>
-</header>
-
-<nav class="tabs" id="tabs" role="tablist" aria-label="カテゴリー">
-  <button class="tab is-active" data-tab="restaurants" role="tab" aria-selected="true">
-    <span class="tab-icon">🍽️</span><span class="tab-label">レストラン</span><span class="tab-count" id="count-restaurants"></span>
-  </button>
-  <button class="tab" data-tab="foods" role="tab" aria-selected="false">
-    <span class="tab-icon">🍝</span><span class="tab-label">食べ物</span><span class="tab-count" id="count-foods"></span>
-  </button>
-  <button class="tab" data-tab="attractions" role="tab" aria-selected="false">
-    <span class="tab-icon">🏛️</span><span class="tab-label">観光</span><span class="tab-count" id="count-attractions"></span>
-  </button>
-</nav>
-
-<div class="toolbar">
-  <div class="search-wrap">
-    <span class="search-icon" aria-hidden="true">🔍</span>
-    <input type="search" id="search" placeholder="キーワードで検索（店名・料理・エリア…）" autocomplete="off" aria-label="検索">
-    <button class="search-clear" id="search-clear" aria-label="クリア" hidden>✕</button>
+  <div class="lp-inner">
+    <h1 class="lp-title">シエナ</h1>
+    <p class="lp-sub">美食・観光ガイド</p>
+    <p class="lp-desc">中世の街並みが残るトスカーナの宝石、シエナ。ピチやチンタ・セネーゼ豚の郷土料理から、カンポ広場・大聖堂といった名所まで。レストラン23・郷土料理21・観光名所21を、検索・タグ・地図付きでまとめました。</p>
+    <div class="lp-stats">
+      <div class="lp-stat"><b>23</b><span>レストラン</span></div>
+      <div class="lp-stat"><b>21</b><span>郷土料理</span></div>
+      <div class="lp-stat"><b>21</b><span>観光名所</span></div>
+    </div>
+    <a class="lp-cta" href="guide.html">ガイドを見る<span aria-hidden="true">→</span></a>
+    <nav class="lp-links" aria-label="カテゴリー">
+      <a class="lp-link" href="guide.html#restaurants"><span class="i">🍽️</span>レストラン</a>
+      <a class="lp-link" href="guide.html#foods"><span class="i">🍝</span>食べ物</a>
+      <a class="lp-link" href="guide.html#attractions"><span class="i">🏛️</span>観光</a>
+      <a class="lp-link" href="guide.html#map"><span class="i">🗺️</span>マップ</a>
+    </nav>
   </div>
-  <div class="tagbar" id="tagbar" aria-label="タグで絞り込み"></div>
-  <div class="result-meta">
-    <span id="result-count"></span>
-    <button class="reset-btn" id="reset-filters" hidden>絞り込みを解除</button>
-  </div>
-</div>
-
-<main class="content">
-  <section id="panel-restaurants" class="panel is-active" role="tabpanel"></section>
-  <section id="panel-foods" class="panel" role="tabpanel"></section>
-  <section id="panel-attractions" class="panel" role="tabpanel"></section>
-  <p class="empty-state" id="empty-state" hidden>該当する項目がありません。検索やタグを見直してください。</p>
+  <p class="lp-credit">写真: <a href="https://unsplash.com/photos/Qackx5pq2ts" target="_blank" rel="noopener">Unsplash</a> ／ データ: シエナ現地調査ノート 2026</p>
 </main>
-
-<footer class="site-footer">
-  <p>出典: シエナ現地調査ノート（2026）／ 画像・地図リンクは各外部サービスに帰属。</p>
-</footer>
-
-<!-- 詳細モーダル -->
-<div class="modal" id="modal" hidden>
-  <div class="modal-backdrop" data-close></div>
-  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <button class="modal-close" data-close aria-label="閉じる">✕</button>
-    <div class="modal-body" id="modal-body"></div>
-  </div>
-</div>
-
-<script src="data/data.js?v=3"></script>
-<script src="js/app.js?v=3"></script>
 </body>
 </html>

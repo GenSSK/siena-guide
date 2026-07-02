@@ -1,0 +1,354 @@
+[
+ {
+  "id": "san-giuseppe",
+  "type": "restaurant",
+  "name": "La Taverna di San Giuseppe",
+  "address": "Via Giovanni Duprè 132",
+  "area": "ドゥオモ近く",
+  "mapQuery": "La Taverna di San Giuseppe, Via Giovanni Duprè 132, Siena, Italy"
+ },
+ {
+  "id": "logge",
+  "type": "restaurant",
+  "name": "Osteria Le Logge",
+  "address": "Via del Porrione 33",
+  "area": "カンポ広場至近",
+  "mapQuery": "Osteria Le Logge, Via del Porrione 33, Siena, Italy"
+ },
+ {
+  "id": "divo",
+  "type": "restaurant",
+  "name": "Antica Osteria da Divo",
+  "address": "Via Franciosa 25/29",
+  "area": "ドゥオモ近く",
+  "mapQuery": "Antica Osteria da Divo, Via Franciosa 25, Siena, Italy"
+ },
+ {
+  "id": "campo-cedro",
+  "type": "restaurant",
+  "name": "Ristorante Campo Cedro",
+  "address": "Via Pian D'Ovile 54",
+  "area": "ポルタ・オヴィーレ近く",
+  "mapQuery": "Ristorante Campo Cedro, Via Pian D'Ovile 54, Siena, Italy"
+ },
+ {
+  "id": "tartufo",
+  "type": "restaurant",
+  "name": "Ristorante Tar-Tufo",
+  "address": "Via del Sole 6a",
+  "area": "旧市街",
+  "mapQuery": "Ristorante Tar-Tufo, Via del Sole 6, Siena, Italy"
+ },
+ {
+  "id": "bagoga",
+  "type": "restaurant",
+  "name": "Grotta Santa Caterina da Bagoga",
+  "address": "Via della Galluzza 26",
+  "area": "ドゥオモから徒歩5分",
+  "mapQuery": "Grotta Santa Caterina da Bagoga, Via della Galluzza 26, Siena, Italy"
+ },
+ {
+  "id": "mugolone",
+  "type": "restaurant",
+  "name": "Mugolone",
+  "address": "Via dei Pellegrini 8/12",
+  "area": "カンポ広場とドゥオモの間",
+  "mapQuery": "Ristorante Mugolone, Via dei Pellegrini 8, Siena, Italy"
+ },
+ {
+  "id": "terzi",
+  "type": "restaurant",
+  "name": "Enoteca I Terzi",
+  "address": "Via dei Termini 7",
+  "area": "カンポ広場近く",
+  "mapQuery": "Enoteca I Terzi, Via dei Termini 7, Siena, Italy"
+ },
+ {
+  "id": "vinattieri",
+  "type": "restaurant",
+  "name": "La Compagnia dei Vinattieri",
+  "address": "Via delle Terme 79",
+  "area": "聖カテリーナ聖堂近く",
+  "mapQuery": "La Compagnia dei Vinattieri, Via delle Terme 79, Siena, Italy"
+ },
+ {
+  "id": "trombicche",
+  "type": "restaurant",
+  "name": "Osteria da Trombicche",
+  "address": "Via delle Terme 66",
+  "area": "カンポ広場から少し外れ",
+  "mapQuery": "Osteria da Trombicche, Via delle Terme 66, Siena, Italy"
+ },
+ {
+  "id": "particolare",
+  "type": "restaurant",
+  "name": "Particolare di Siena",
+  "address": "Via B. Peruzzi 26",
+  "area": "城壁のすぐ外（ドゥオモから徒歩5分）",
+  "mapQuery": "Particolare di Siena, Via Baldassarre Peruzzi 26, Siena, Italy"
+ },
+ {
+  "id": "capitano",
+  "type": "restaurant",
+  "name": "La Taverna del Capitano",
+  "address": "Via del Capitano 8",
+  "area": "ドゥオモ至近",
+  "mapQuery": "La Taverna del Capitano, Via del Capitano 8, Siena, Italy"
+ },
+ {
+  "id": "salefino",
+  "type": "restaurant",
+  "name": "Salefino Vino e Cucina",
+  "address": "Via degli Umiliati 1",
+  "area": "歴史的中心部の周縁",
+  "mapQuery": "Salefino Vino e Cucina, Via degli Umiliati 1, Siena, Italy"
+ },
+ {
+  "id": "chiacchera",
+  "type": "restaurant",
+  "name": "Osteria La Chiacchera",
+  "address": "Costa Sant'Antonio 4",
+  "area": "サン・ドメニコ〜中心部の坂道",
+  "mapQuery": "Osteria La Chiacchera, Costa Sant'Antonio 4, Siena, Italy"
+ },
+ {
+  "id": "svitati",
+  "type": "restaurant",
+  "name": "Osteria degli Svitati",
+  "address": "Via della Galluzza 34",
+  "area": "ガッルッツァ通り",
+  "mapQuery": "Osteria degli Svitati, Via della Galluzza 34, Siena, Italy"
+ },
+ {
+  "id": "permalico",
+  "type": "restaurant",
+  "name": "Osteria Permalico",
+  "address": "Costa Larga 4",
+  "area": "カンポ広場近く（コスタ・ラルガ）",
+  "mapQuery": "Osteria Permalico, Costa Larga 4, Siena, Italy"
+ },
+ {
+  "id": "grattacielo",
+  "type": "restaurant",
+  "name": "Osteria Il Grattacielo dal 1840",
+  "address": "Via dei Pontani 8",
+  "area": "Via dei Termini の角",
+  "mapQuery": "Osteria Il Grattacielo, Via dei Pontani 8, Siena, Italy"
+ },
+ {
+  "id": "papei",
+  "type": "restaurant",
+  "name": "Antica Trattoria Papei",
+  "address": "Piazza del Mercato 6",
+  "area": "カンポ広場裏・メルカート広場",
+  "mapQuery": "Antica Trattoria Papei, Piazza del Mercato 6, Siena, Italy"
+ },
+ {
+  "id": "nonna-gina",
+  "type": "restaurant",
+  "name": "Osteria Nonna Gina",
+  "address": "外周部（静かなエリア）",
+  "area": "シエナ外周部",
+  "mapQuery": "Osteria Nonna Gina, Siena, Italy"
+ },
+ {
+  "id": "pretto",
+  "type": "restaurant",
+  "name": "Prètto Prosciutteria e Convivio",
+  "address": "カンポ広場至近",
+  "area": "カンポ広場至近",
+  "mapQuery": "Pretto Prosciutteria, Siena, Italy"
+ },
+ {
+  "id": "tellina",
+  "type": "restaurant",
+  "name": "Trattoria La Tellina",
+  "address": "Via delle Terme 52",
+  "area": "旧市街の静かな通り",
+  "mapQuery": "Trattoria La Tellina, Via delle Terme 52, Siena, Italy"
+ },
+ {
+  "id": "nannini",
+  "type": "restaurant",
+  "name": "Pasticceria / Caffè Nannini",
+  "address": "Via Banchi di Sopra 24（本店 Conca d'Oro）",
+  "area": "メインストリート",
+  "mapQuery": "Pasticceria Nannini, Via Banchi di Sopra 24, Siena, Italy"
+ },
+ {
+  "id": "zest",
+  "type": "restaurant",
+  "name": "Zest Ristorante & Winebar",
+  "address": "カンポ広場から続く石畳の路地",
+  "area": "カンポ広場近く",
+  "mapQuery": "Zest Ristorante Winebar, Siena, Italy"
+ },
+ {
+  "id": "campo",
+  "type": "attraction",
+  "name": "Piazza del Campo",
+  "address": "Il Campo, 1",
+  "area": "歴史地区の中心",
+  "mapQuery": "Piazza del Campo, Siena, Italy"
+ },
+ {
+  "id": "fonte-gaia",
+  "type": "attraction",
+  "name": "Fonte Gaia",
+  "address": "カンポ広場の高い側",
+  "area": "カンポ広場内",
+  "mapQuery": "Fonte Gaia, Piazza del Campo, Siena, Italy"
+ },
+ {
+  "id": "palazzo-pubblico",
+  "type": "attraction",
+  "name": "Palazzo Pubblico / Museo Civico",
+  "address": "Piazza del Campo, 1",
+  "area": "カンポ広場の低い側",
+  "mapQuery": "Palazzo Pubblico Siena, Piazza del Campo 1, Siena, Italy"
+ },
+ {
+  "id": "torre-mangia",
+  "type": "attraction",
+  "name": "Torre del Mangia",
+  "address": "Piazza del Campo, 1（宮殿内）",
+  "area": "カンポ広場",
+  "mapQuery": "Torre del Mangia, Piazza del Campo, Siena, Italy"
+ },
+ {
+  "id": "duomo",
+  "type": "attraction",
+  "name": "Duomo di Siena",
+  "address": "Piazza del Duomo, 8",
+  "area": "カンポ広場から徒歩4分",
+  "mapQuery": "Duomo di Siena, Piazza del Duomo 8, Siena, Italy"
+ },
+ {
+  "id": "piccolomini",
+  "type": "attraction",
+  "name": "Libreria Piccolomini",
+  "address": "大聖堂内左側廊",
+  "area": "大聖堂内",
+  "mapQuery": "Libreria Piccolomini, Duomo di Siena, Siena, Italy"
+ },
+ {
+  "id": "battistero",
+  "type": "attraction",
+  "name": "Battistero di San Giovanni",
+  "address": "大聖堂の後陣下・サン・ジョヴァンニ広場",
+  "area": "大聖堂北側（少し低い位置）",
+  "mapQuery": "Battistero di San Giovanni, Siena, Italy"
+ },
+ {
+  "id": "cripta",
+  "type": "attraction",
+  "name": "Cripta del Duomo",
+  "address": "大聖堂下・サン・ジョヴァンニ階段脇",
+  "area": "大聖堂下",
+  "mapQuery": "Cripta del Duomo di Siena, Siena, Italy"
+ },
+ {
+  "id": "museo-opera",
+  "type": "attraction",
+  "name": "Museo dell'Opera del Duomo",
+  "address": "Piazza del Duomo（大聖堂のすぐ東）",
+  "area": "大聖堂の東",
+  "mapQuery": "Museo dell'Opera del Duomo, Piazza del Duomo, Siena, Italy"
+ },
+ {
+  "id": "facciatone",
+  "type": "attraction",
+  "name": "Panorama dal Facciatone",
+  "address": "付属美術館上層階",
+  "area": "大聖堂複合施設",
+  "mapQuery": "Facciatone Siena, Piazza del Duomo, Siena, Italy"
+ },
+ {
+  "id": "porta-cielo",
+  "type": "attraction",
+  "name": "Porta del Cielo",
+  "address": "大聖堂内（正面入口内側から出発）",
+  "area": "大聖堂内",
+  "mapQuery": "Porta del Cielo Duomo di Siena, Siena, Italy"
+ },
+ {
+  "id": "santa-maria-scala",
+  "type": "attraction",
+  "name": "Santa Maria della Scala",
+  "address": "Piazza del Duomo, 1（大聖堂の真向かい）",
+  "area": "ドゥオモ広場",
+  "mapQuery": "Santa Maria della Scala, Piazza del Duomo 1, Siena, Italy"
+ },
+ {
+  "id": "pinacoteca",
+  "type": "attraction",
+  "name": "Pinacoteca Nazionale di Siena",
+  "address": "Via di San Pietro, 29",
+  "area": "主要ルートから少し外れた静かな一角",
+  "mapQuery": "Pinacoteca Nazionale di Siena, Via di San Pietro 29, Siena, Italy"
+ },
+ {
+  "id": "san-domenico",
+  "type": "attraction",
+  "name": "Basilica di San Domenico",
+  "address": "Piazza San Domenico, 1",
+  "area": "フォンテブランダを見下ろす丘の上",
+  "mapQuery": "Basilica di San Domenico, Piazza San Domenico 1, Siena, Italy"
+ },
+ {
+  "id": "casa-caterina",
+  "type": "attraction",
+  "name": "Santuario e Casa di Santa Caterina",
+  "address": "Costa di Sant'Antonio, 6",
+  "area": "サン・ドメニコのすぐ下・フォンテブランダ地区",
+  "mapQuery": "Santuario Casa di Santa Caterina, Costa di Sant'Antonio 6, Siena, Italy"
+ },
+ {
+  "id": "san-francesco",
+  "type": "attraction",
+  "name": "Basilica di San Francesco",
+  "address": "Piazza San Francesco, 5-7",
+  "area": "歴史地区北東部",
+  "mapQuery": "Basilica di San Francesco, Piazza San Francesco, Siena, Italy"
+ },
+ {
+  "id": "san-bernardino",
+  "type": "attraction",
+  "name": "Oratorio di San Bernardino / Museo Diocesano",
+  "address": "Piazza San Francesco, 7",
+  "area": "サン・フランチェスコ聖堂の隣",
+  "mapQuery": "Oratorio di San Bernardino, Piazza San Francesco 7, Siena, Italy"
+ },
+ {
+  "id": "fortezza",
+  "type": "attraction",
+  "name": "Fortezza Medicea",
+  "address": "Piazza Caduti delle Forze Armate",
+  "area": "サン・プロスペロ地区・歴史地区北西部（中心部から徒歩約15分）",
+  "mapQuery": "Fortezza Medicea, Siena, Italy"
+ },
+ {
+  "id": "orto-botanico",
+  "type": "attraction",
+  "name": "Orto Botanico dell'Università di Siena",
+  "address": "Via Pier Andrea Mattioli, 4",
+  "area": "歴史地区南部の城壁内（中心部から徒歩約10分）",
+  "mapQuery": "Orto Botanico Università di Siena, Via Pier Andrea Mattioli 4, Siena, Italy"
+ },
+ {
+  "id": "provenzano",
+  "type": "attraction",
+  "name": "Collegiata di Provenzano",
+  "address": "歴史地区北東部・テルツォ・カモッリア地区",
+  "area": "カンポ広場の北側",
+  "mapQuery": "Santa Maria in Provenzano, Siena, Italy"
+ },
+ {
+  "id": "contrada",
+  "type": "attraction",
+  "name": "Le Contrade",
+  "address": "歴史地区全域",
+  "area": "歴史地区全域",
+  "mapQuery": "Siena Contrade, Siena, Italy"
+ }
+]

@@ -1,0 +1,266 @@
+{
+ "san-giuseppe": {
+  "lat": 43.315489,
+  "lon": 11.331754,
+  "name": "132, Via Giovanni Duprè, Contrada dell'Onda, Terzo di Città, Siena, Toscana, 531",
+  "query": "Via Giovanni Duprè 132, Siena, Italy"
+ },
+ "logge": {
+  "lat": 43.318489,
+  "lon": 11.333362,
+  "name": "Osteria Le logge, 33, Via del Porrione, Contrada della Torre, Terzo di San Marti",
+  "query": "Via del Porrione 33, Siena, Italy"
+ },
+ "divo": {
+  "lat": 43.317729,
+  "lon": 11.327797,
+  "name": "Via Franciosa, Contrada della Selva, Terzo di Città, Siena, Toscana, 53100, Ital",
+  "query": "Via Franciosa 25/29, Siena, Italy"
+ },
+ "campo-cedro": {
+  "lat": 43.322215,
+  "lon": 11.330598,
+  "name": "Ristorante Campo Cedro, 54, Via del Pian D'Ovile, Contrada della Lupa, Terzo di ",
+  "query": "Via Pian D'Ovile 54, Siena, Italy"
+ },
+ "tartufo": {
+  "lat": 43.316474,
+  "lon": 11.335298,
+  "name": "Via del Sole, Contrada di Valdimontone, Terzo di San Martino, Siena, Toscana, 53",
+  "query": "Via del Sole 6a, Siena, Italy"
+ },
+ "bagoga": {
+  "lat": 43.319322,
+  "lon": 11.329567,
+  "name": "Grotta Santa Caterina da Bagoga, 26, Via della Galluzza, Contrada dell'Oca, Terz",
+  "query": "Via della Galluzza 26, Siena, Italy"
+ },
+ "mugolone": {
+  "lat": 43.318375,
+  "lon": 11.3303,
+  "name": "Via dei Pellegrini, Contrada della Selva, Terzo di Città, Siena, Toscana, 53100,",
+  "query": "Via dei Pellegrini 8/12, Siena, Italy"
+ },
+ "terzi": {
+  "lat": 43.319412,
+  "lon": 11.330778,
+  "name": "Enoteca I Terzi, 7, Via dei Termini, Contrada del Drago, Terzo di Camollia, Sien",
+  "query": "Via dei Termini 7, Siena, Italy"
+ },
+ "vinattieri": {
+  "lat": 43.320261,
+  "lon": 11.330137,
+  "name": "Compagnia dei Vinattieri, 79, Via delle Terme, Contrada dell'Oca, Terzo di Camol",
+  "query": "Via delle Terme 79, Siena, Italy"
+ },
+ "trombicche": {
+  "lat": 43.320328,
+  "lon": 11.330262,
+  "name": "Osteria Da Trombicche, 66, Via delle Terme, Contrada del Drago, Terzo di Camolli",
+  "query": "Via delle Terme 66, Siena, Italy"
+ },
+ "particolare": {
+  "lat": 43.322879,
+  "lon": 11.336585,
+  "name": "Particolare di Siena, 26, Via Baldassarre Peruzzi, Ravacciano, Siena, Toscana, 5",
+  "query": "Particolare di Siena, Siena, Italy"
+ },
+ "capitano": {
+  "lat": 43.316518,
+  "lon": 11.32974,
+  "name": "La Taverna Del Capitano, 6;8, Via del Capitano, Contrada dell'Aquila, Terzo di C",
+  "query": "Via del Capitano 8, Siena, Italy"
+ },
+ "salefino": {
+  "lat": 43.323588,
+  "lon": 11.328018,
+  "name": "1, Via Camollia, Contrada dell'Istrice, Terzo di Camollia, Siena, Toscana, 53100",
+  "query": "Via degli Umiliati 1, Siena, Italy"
+ },
+ "chiacchera": {
+  "lat": 43.32012,
+  "lon": 11.328794,
+  "name": "Osteria La Chiacchera, 4, Costa Sant'Antonio, Contrada del Drago, Terzo di Camol",
+  "query": "Costa Sant'Antonio 4, Siena, Italy"
+ },
+ "svitati": {
+  "lat": 43.319657,
+  "lon": 11.32928,
+  "name": "Osteria degli Svitati, 34, Via della Galluzza, Contrada dell'Oca, Terzo di Camol",
+  "query": "Via della Galluzza 34, Siena, Italy"
+ },
+ "permalico": {
+  "lat": 43.316374,
+  "lon": 11.330035,
+  "name": "Osteria Permalico, 4, Costa Larga, Contrada dell'Onda, Terzo di Città, Siena, To",
+  "query": "Costa Larga 4, Siena, Italy"
+ },
+ "grattacielo": {
+  "lat": 43.320275,
+  "lon": 11.330721,
+  "name": "Osteria Il Grattacielo, 8, Via dei Pontani, Contrada del Drago, Terzo di Camolli",
+  "query": "Via dei Pontani 8, Siena, Italy"
+ },
+ "papei": {
+  "lat": 43.317038,
+  "lon": 11.332479,
+  "name": "Antica Trattoria Papei, 6, Piazza del Mercato, Contrada dell'Onda, Terzo di Citt",
+  "query": "Piazza del Mercato 6, Siena, Italy"
+ },
+ "nonna-gina": {
+  "lat": 43.315321,
+  "lon": 11.327569,
+  "name": "Osteria Di Nonna Gina, 2, Pian dei Mantellini, Contrada della Pantera, Terzo di ",
+  "query": "Osteria Nonna Gina, Siena, Italy"
+ },
+ "pretto": {
+  "lat": 43.319191,
+  "lon": 11.330789,
+  "name": "Prètto Prosciutteria e Convivio, 4, Via dei Termini, Contrada della Civetta, Ter",
+  "query": "Prètto Prosciutteria e Convivio, Siena, Italy"
+ },
+ "tellina": {
+  "lat": 43.320119,
+  "lon": 11.330338,
+  "name": "Trattoria La Tellina, 52, Via delle Terme, Contrada del Drago, Terzo di Camollia",
+  "query": "Via delle Terme 52, Siena, Italy"
+ },
+ "nannini": {
+  "lat": 43.320871,
+  "lon": 11.330682,
+  "name": "Banchi di Sopra, Contrada del Bruco, Terzo di Camollia, Siena, Toscana, 53100, I",
+  "query": "Via Banchi di Sopra 24, Siena, Italy"
+ },
+ "campo": {
+  "lat": 43.318439,
+  "lon": 11.331558,
+  "name": "Il Campo, Pispini, Siena, Toscana, Italia",
+  "query": "Piazza del Campo, Siena, Italy"
+ },
+ "fonte-gaia": {
+  "lat": 43.318727,
+  "lon": 11.331385,
+  "name": "Fonte Gaia, Il Campo, Contrada della Civetta, Terzo di San Martino, Siena, Tosca",
+  "query": "Fonte Gaia, Siena, Italy"
+ },
+ "palazzo-pubblico": {
+  "lat": 43.317997,
+  "lon": 11.332013,
+  "name": "Palazzo Pubblico, 1, Il Campo, Pispini, Siena, Toscana, 53100, Italia",
+  "query": "Piazza del Campo, 1, Siena, Italy"
+ },
+ "torre-mangia": {
+  "lat": 43.317997,
+  "lon": 11.332013,
+  "name": "Palazzo Pubblico, 1, Il Campo, Pispini, Siena, Toscana, 53100, Italia",
+  "query": "Piazza del Campo, 1, Siena, Italy"
+ },
+ "duomo": {
+  "lat": 43.317769,
+  "lon": 11.328599,
+  "name": "Cattedrale di Siena e Libreria Piccolomini, 8, Piazza del Duomo, Contrada della ",
+  "query": "Piazza del Duomo, 8, Siena, Italy"
+ },
+ "piccolomini": {
+  "lat": 43.317838,
+  "lon": 11.328523,
+  "name": "Libreria Piccolomini, 8, Piazza del Duomo, Contrada della Selva, Terzo di Città,",
+  "query": "Libreria Piccolomini, Siena, Italy"
+ },
+ "battistero": {
+  "lat": 43.318081,
+  "lon": 11.329265,
+  "name": "Battistero di San Giovanni, Piazza San Giovanni, Contrada della Selva, Terzo di ",
+  "query": "Battistero di San Giovanni, Siena, Italy"
+ },
+ "cripta": {
+  "lat": 43.317893,
+  "lon": 11.329306,
+  "name": "Basilica Sotterranea (Cripta del Duomo), Scalinata di Piazza San Giovanni, Contr",
+  "query": "Cripta del Duomo, Siena, Italy"
+ },
+ "museo-opera": {
+  "lat": 43.317281,
+  "lon": 11.32848,
+  "name": "Piazza del Duomo, Contrada della Selva, Terzo di Città, Siena, Toscana, Italia",
+  "query": "Piazza del Duomo, Siena, Italy"
+ },
+ "santa-maria-scala": {
+  "lat": 43.316965,
+  "lon": 11.328913,
+  "name": "1, Piazza del Duomo, Contrada della Selva, Terzo di Città, Siena, Toscana, 53100",
+  "query": "Piazza del Duomo, 1, Siena, Italy"
+ },
+ "pinacoteca": {
+  "lat": 43.315689,
+  "lon": 11.330475,
+  "name": "Pinacoteca Nazionale di Siena, 29, Via San Pietro, Contrada dell'Onda, Terzo di ",
+  "query": "Via di San Pietro, 29, Siena, Italy"
+ },
+ "san-domenico": {
+  "lat": 43.320559,
+  "lon": 11.32707,
+  "name": "Bar San Domenico, 1, Piazza San Domenico, Contrada del Drago, Terzo di Camollia,",
+  "query": "Piazza San Domenico, 1, Siena, Italy"
+ },
+ "casa-caterina": {
+  "lat": 43.319929,
+  "lon": 11.328631,
+  "name": "Santuario e Casa di Santa Caterina, 6, Costa di Sant'Antonio, Contrada del Drago",
+  "query": "Costa di Sant'Antonio, 6, Siena, Italy"
+ },
+ "san-francesco": {
+  "lat": 43.322023,
+  "lon": 11.334034,
+  "name": "Piazza San Francesco, Contrada del Bruco, Terzo di Camollia, Siena, Toscana, Ita",
+  "query": "Piazza San Francesco, 5-7, Siena, Italy"
+ },
+ "san-bernardino": {
+  "lat": 43.322023,
+  "lon": 11.334034,
+  "name": "Piazza San Francesco, Contrada del Bruco, Terzo di Camollia, Siena, Toscana, Ita",
+  "query": "Piazza San Francesco, 7, Siena, Italy"
+ },
+ "fortezza": {
+  "lat": 43.322266,
+  "lon": 11.323387,
+  "name": "Fortezza Medicea, Via Enrico Toti, San Prospero, Siena, Toscana, 53100, Italia",
+  "query": "Fortezza Medicea, Siena, Italy"
+ },
+ "orto-botanico": {
+  "lat": 43.313729,
+  "lon": 11.331056,
+  "name": "4, Via Pier Andrea Mattioli, Contrada della Tartuca, Terzo di Città, Siena, Tosc",
+  "query": "Via Pier Andrea Mattioli, 4, Siena, Italy"
+ },
+ "provenzano": {
+  "lat": 43.320975,
+  "lon": 11.332661,
+  "name": "Collegiata di Santa Maria di Provenzano, Piazza Provenzano Salvani, Contrada del",
+  "query": "Collegiata di Provenzano, Siena, Italy"
+ },
+ "zest": {
+  "lat": 43.31789,
+  "lon": 11.33179,
+  "name": "（手動）カンポ広場周辺の路地",
+  "query": "manual"
+ },
+ "facciatone": {
+  "lat": 43.317281,
+  "lon": 11.32848,
+  "name": "（手動）ドゥオモ付属美術館（新大聖堂ファサード上）",
+  "query": "manual"
+ },
+ "porta-cielo": {
+  "lat": 43.317769,
+  "lon": 11.328599,
+  "name": "（手動）シエナ大聖堂 屋上",
+  "query": "manual"
+ },
+ "contrada": {
+  "lat": 43.318439,
+  "lon": 11.331558,
+  "name": "（手動）歴史地区中心（代表点）",
+  "query": "manual"
+ }
+}

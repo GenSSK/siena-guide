@@ -271,6 +271,7 @@ window.SIENA_DATA = {
   restaurants: [
     {
       id: "san-giuseppe",
+      lat: 43.315489, lng: 11.331754, zone: "南部・外周部",
       name: "ラ・タヴェルナ・ディ・サン・ジュゼッペ",
       nameOrig: "La Taverna di San Giuseppe",
       categories: ["クラシック"],
@@ -292,6 +293,7 @@ window.SIENA_DATA = {
     },
     {
       id: "logge",
+      lat: 43.318489, lng: 11.333362, zone: "カンポ広場周辺",
       name: "オステリア・レ・ロッジェ",
       nameOrig: "Osteria Le Logge",
       categories: ["クラシック", "高価"],
@@ -313,6 +315,7 @@ window.SIENA_DATA = {
     },
     {
       id: "divo",
+      lat: 43.317729, lng: 11.327797, zone: "ドゥオモ周辺",
       name: "アンティカ・オステリア・ダ・ディーヴォ",
       nameOrig: "Antica Osteria da Divo",
       categories: ["高価"],
@@ -334,6 +337,7 @@ window.SIENA_DATA = {
     },
     {
       id: "campo-cedro",
+      lat: 43.322215, lng: 11.330598, zone: "サン・フランチェスコ／北東部",
       name: "リストランテ・カンポ・チェドロ",
       nameOrig: "Ristorante Campo Cedro",
       categories: ["高価"],
@@ -355,6 +359,7 @@ window.SIENA_DATA = {
     },
     {
       id: "tartufo",
+      lat: 43.316474, lng: 11.335298, zone: "カンポ広場周辺",
       name: "リストランテ・タルトゥフォ",
       nameOrig: "Ristorante Tar-Tufo",
       categories: ["高価"],
@@ -376,6 +381,7 @@ window.SIENA_DATA = {
     },
     {
       id: "bagoga",
+      lat: 43.319322, lng: 11.329567, zone: "サン・ドメニコ／フォンテブランダ",
       name: "ラ・グロッタ・ディ・サンタ・カテリーナ・ダ・バゴガ",
       nameOrig: "Grotta Santa Caterina da Bagoga",
       categories: ["有名", "クラシック"],
@@ -397,6 +403,7 @@ window.SIENA_DATA = {
     },
     {
       id: "mugolone",
+      lat: 43.318375, lng: 11.3303, zone: "カンポ広場周辺",
       name: "ムゴローネ",
       nameOrig: "Mugolone",
       categories: ["クラシック"],
@@ -418,6 +425,7 @@ window.SIENA_DATA = {
     },
     {
       id: "terzi",
+      lat: 43.319412, lng: 11.330778, zone: "カンポ広場周辺",
       name: "エノテカ・イ・テルツィ",
       nameOrig: "Enoteca I Terzi",
       categories: ["人気"],
@@ -439,6 +447,7 @@ window.SIENA_DATA = {
     },
     {
       id: "vinattieri",
+      lat: 43.320261, lng: 11.330137, zone: "サン・ドメニコ／フォンテブランダ",
       name: "ラ・コンパニーア・デイ・ヴィナッティエーリ",
       nameOrig: "La Compagnia dei Vinattieri",
       categories: ["人気"],
@@ -460,6 +469,7 @@ window.SIENA_DATA = {
     },
     {
       id: "trombicche",
+      lat: 43.320328, lng: 11.330262, zone: "サン・ドメニコ／フォンテブランダ",
       name: "オステリア・ダ・トロンビッケ",
       nameOrig: "Osteria da Trombicche",
       categories: ["人気", "大衆的"],
@@ -481,6 +491,7 @@ window.SIENA_DATA = {
     },
     {
       id: "particolare",
+      lat: 43.322879, lng: 11.336585, zone: "サン・フランチェスコ／北東部",
       name: "パルティコラーレ・ディ・シエナ",
       nameOrig: "Particolare di Siena",
       categories: ["人気", "高価"],
@@ -502,6 +513,7 @@ window.SIENA_DATA = {
     },
     {
       id: "capitano",
+      lat: 43.316518, lng: 11.32974, zone: "ドゥオモ周辺",
       name: "ラ・タヴェルナ・デル・カピターノ",
       nameOrig: "La Taverna del Capitano",
       categories: ["人気"],
@@ -523,6 +535,7 @@ window.SIENA_DATA = {
     },
     {
       id: "salefino",
+      lat: 43.323588, lng: 11.328018, zone: "メディチ要塞／北西部",
       name: "サレフィーノ・ヴィノ・エ・クチーナ",
       nameOrig: "Salefino Vino e Cucina",
       categories: ["人気"],
@@ -544,6 +557,7 @@ window.SIENA_DATA = {
     },
     {
       id: "chiacchera",
+      lat: 43.32012, lng: 11.328794, zone: "サン・ドメニコ／フォンテブランダ",
       name: "オステリア・ラ・キアッケラ",
       nameOrig: "Osteria La Chiacchera",
       categories: ["大衆的", "人気"],
@@ -565,6 +579,7 @@ window.SIENA_DATA = {
     },
     {
       id: "svitati",
+      lat: 43.319657, lng: 11.32928, zone: "サン・ドメニコ／フォンテブランダ",
       name: "オステリア・デッリ・スヴィターティ",
       nameOrig: "Osteria degli Svitati",
       categories: ["大衆的"],
@@ -586,6 +601,7 @@ window.SIENA_DATA = {
     },
     {
       id: "permalico",
+      lat: 43.316374, lng: 11.330035, zone: "ドゥオモ周辺",
       name: "オステリア・ペルマリコ",
       nameOrig: "Osteria Permalico",
       categories: ["大衆的"],
@@ -607,6 +623,7 @@ window.SIENA_DATA = {
     },
     {
       id: "grattacielo",
+      lat: 43.320275, lng: 11.330721, zone: "カンポ広場周辺",
       name: "オステリア・イル・グラッタチエロ（1840年創業）",
       nameOrig: "Osteria Il Grattacielo dal 1840",
       categories: ["大衆的", "クラシック"],
@@ -628,6 +645,7 @@ window.SIENA_DATA = {
     },
     {
       id: "papei",
+      lat: 43.317038, lng: 11.332479, zone: "カンポ広場周辺",
       name: "アンティカ・トラットリア・パペイ",
       nameOrig: "Antica Trattoria Papei",
       categories: ["クラシック", "大衆的"],
@@ -649,6 +667,7 @@ window.SIENA_DATA = {
     },
     {
       id: "nonna-gina",
+      lat: 43.315321, lng: 11.327569, zone: "南部・外周部",
       name: "オステリア・ノンナ・ジーナ",
       nameOrig: "Osteria Nonna Gina",
       categories: ["大衆的"],
@@ -670,6 +689,7 @@ window.SIENA_DATA = {
     },
     {
       id: "pretto",
+      lat: 43.319191, lng: 11.330789, zone: "カンポ広場周辺",
       name: "プレット・プロシュッテリア・エ・コンヴィヴィオ",
       nameOrig: "Prètto Prosciutteria e Convivio",
       categories: ["大衆的"],
@@ -691,6 +711,7 @@ window.SIENA_DATA = {
     },
     {
       id: "tellina",
+      lat: 43.320119, lng: 11.330338, zone: "サン・ドメニコ／フォンテブランダ",
       name: "トラットリア・ラ・テッリーナ",
       nameOrig: "Trattoria La Tellina",
       categories: ["大衆的"],
@@ -712,6 +733,7 @@ window.SIENA_DATA = {
     },
     {
       id: "nannini",
+      lat: 43.320871, lng: 11.330682, zone: "サン・フランチェスコ／北東部",
       name: "パスティッチェリア・ナンニーニ",
       nameOrig: "Pasticceria / Caffè Nannini",
       categories: ["有名", "カフェ"],
@@ -733,6 +755,7 @@ window.SIENA_DATA = {
     },
     {
       id: "zest",
+      lat: 43.31789, lng: 11.33179, zone: "カンポ広場周辺",
       name: "ゼスト・リストランテ＆ワインバー",
       nameOrig: "Zest Ristorante & Winebar",
       categories: ["有名"],
@@ -758,6 +781,7 @@ window.SIENA_DATA = {
   attractions: [
     {
       id: "campo",
+      lat: 43.318439, lng: 11.331558, zone: "カンポ広場周辺",
       name: "カンポ広場",
       nameOrig: "Piazza del Campo",
       categories: ["広場", "世界遺産"],
@@ -777,6 +801,7 @@ window.SIENA_DATA = {
     },
     {
       id: "fonte-gaia",
+      lat: 43.318727, lng: 11.331385, zone: "カンポ広場周辺",
       name: "フォンテ・ガイア（喜びの泉）",
       nameOrig: "Fonte Gaia",
       categories: ["モニュメント"],
@@ -796,6 +821,7 @@ window.SIENA_DATA = {
     },
     {
       id: "palazzo-pubblico",
+      lat: 43.317997, lng: 11.332013, zone: "カンポ広場周辺",
       name: "プッブリコ宮殿 / 市立美術館",
       nameOrig: "Palazzo Pubblico / Museo Civico",
       categories: ["美術館", "建築"],
@@ -815,6 +841,7 @@ window.SIENA_DATA = {
     },
     {
       id: "torre-mangia",
+      lat: 43.317997, lng: 11.332013, zone: "カンポ広場周辺",
       name: "マンジャの塔",
       nameOrig: "Torre del Mangia",
       categories: ["塔", "展望"],
@@ -834,6 +861,7 @@ window.SIENA_DATA = {
     },
     {
       id: "duomo",
+      lat: 43.317769, lng: 11.328599, zone: "ドゥオモ周辺",
       name: "シエナ大聖堂（ドゥオモ）",
       nameOrig: "Duomo di Siena",
       categories: ["教会", "美術"],
@@ -853,6 +881,7 @@ window.SIENA_DATA = {
     },
     {
       id: "piccolomini",
+      lat: 43.317838, lng: 11.328523, zone: "ドゥオモ周辺",
       name: "ピッコロミーニ図書館",
       nameOrig: "Libreria Piccolomini",
       categories: ["図書館", "美術"],
@@ -872,6 +901,7 @@ window.SIENA_DATA = {
     },
     {
       id: "battistero",
+      lat: 43.318081, lng: 11.329265, zone: "ドゥオモ周辺",
       name: "サン・ジョヴァンニ洗礼堂",
       nameOrig: "Battistero di San Giovanni",
       categories: ["教会", "彫刻"],
@@ -891,6 +921,7 @@ window.SIENA_DATA = {
     },
     {
       id: "cripta",
+      lat: 43.317893, lng: 11.329306, zone: "ドゥオモ周辺",
       name: "クリプタ（大聖堂地下聖堂）",
       nameOrig: "Cripta del Duomo",
       categories: ["教会", "美術"],
@@ -910,6 +941,7 @@ window.SIENA_DATA = {
     },
     {
       id: "museo-opera",
+      lat: 43.317281, lng: 11.32848, zone: "ドゥオモ周辺",
       name: "ドゥオモ付属美術館",
       nameOrig: "Museo dell'Opera del Duomo",
       categories: ["美術館"],
@@ -929,6 +961,7 @@ window.SIENA_DATA = {
     },
     {
       id: "facciatone",
+      lat: 43.317281, lng: 11.32848, zone: "ドゥオモ周辺",
       name: "ファッチャトーネ展望台",
       nameOrig: "Panorama dal Facciatone",
       categories: ["展望"],
@@ -948,6 +981,7 @@ window.SIENA_DATA = {
     },
     {
       id: "porta-cielo",
+      lat: 43.317769, lng: 11.328599, zone: "ドゥオモ周辺",
       name: "天国の門（屋上ツアー）",
       nameOrig: "Porta del Cielo",
       categories: ["ツアー", "展望"],
@@ -967,6 +1001,7 @@ window.SIENA_DATA = {
     },
     {
       id: "santa-maria-scala",
+      lat: 43.316965, lng: 11.328913, zone: "ドゥオモ周辺",
       name: "サンタ・マリア・デッラ・スカーラ",
       nameOrig: "Santa Maria della Scala",
       categories: ["博物館", "歴史建築"],
@@ -986,6 +1021,7 @@ window.SIENA_DATA = {
     },
     {
       id: "pinacoteca",
+      lat: 43.315689, lng: 11.330475, zone: "南部・外周部",
       name: "国立絵画館（ピナコテーカ）",
       nameOrig: "Pinacoteca Nazionale di Siena",
       categories: ["美術館"],
@@ -1005,6 +1041,7 @@ window.SIENA_DATA = {
     },
     {
       id: "san-domenico",
+      lat: 43.320559, lng: 11.32707, zone: "サン・ドメニコ／フォンテブランダ",
       name: "サン・ドメニコ聖堂",
       nameOrig: "Basilica di San Domenico",
       categories: ["教会"],
@@ -1024,6 +1061,7 @@ window.SIENA_DATA = {
     },
     {
       id: "casa-caterina",
+      lat: 43.319929, lng: 11.328631, zone: "サン・ドメニコ／フォンテブランダ",
       name: "聖カテリーナの家・聖域",
       nameOrig: "Santuario e Casa di Santa Caterina",
       categories: ["教会", "史跡"],
@@ -1043,6 +1081,7 @@ window.SIENA_DATA = {
     },
     {
       id: "san-francesco",
+      lat: 43.322023, lng: 11.334034, zone: "サン・フランチェスコ／北東部",
       name: "サン・フランチェスコ聖堂",
       nameOrig: "Basilica di San Francesco",
       categories: ["教会"],
@@ -1062,6 +1101,7 @@ window.SIENA_DATA = {
     },
     {
       id: "san-bernardino",
+      lat: 43.322023, lng: 11.334034, zone: "サン・フランチェスコ／北東部",
       name: "サン・ベルナルディーノ礼拝堂＆教区宗教美術館",
       nameOrig: "Oratorio di San Bernardino / Museo Diocesano",
       categories: ["教会", "美術館"],
@@ -1081,6 +1121,7 @@ window.SIENA_DATA = {
     },
     {
       id: "fortezza",
+      lat: 43.322266, lng: 11.323387, zone: "メディチ要塞／北西部",
       name: "メディチ要塞（サンタ・バルバラ要塞）",
       nameOrig: "Fortezza Medicea",
       categories: ["史跡", "公園", "展望"],
@@ -1100,6 +1141,7 @@ window.SIENA_DATA = {
     },
     {
       id: "orto-botanico",
+      lat: 43.313729, lng: 11.331056, zone: "南部・外周部",
       name: "シエナ大学植物園",
       nameOrig: "Orto Botanico dell'Università di Siena",
       categories: ["庭園"],
@@ -1119,6 +1161,7 @@ window.SIENA_DATA = {
     },
     {
       id: "provenzano",
+      lat: 43.320975, lng: 11.332661, zone: "サン・フランチェスコ／北東部",
       name: "サンタ・マリア・イン・プロヴェンツァーノ聖堂",
       nameOrig: "Collegiata di Provenzano",
       categories: ["教会"],
@@ -1138,6 +1181,7 @@ window.SIENA_DATA = {
     },
     {
       id: "contrada",
+      lat: 43.318439, lng: 11.331558, zone: "カンポ広場周辺",
       name: "コントラーダ（17地区）巡りと地区博物館",
       nameOrig: "Le Contrade",
       categories: ["文化", "街歩き"],
@@ -1157,3 +1201,7 @@ window.SIENA_DATA = {
     }
   ]
 };
+
+
+/* 各地点の基準地図(images/map/siena-base.jpg 560x600)上の位置(%) */
+window.SIENA_PROJ = {"san-giuseppe":{"x":61.79,"y":77},"logge":{"x":72.5,"y":51.33},"divo":{"x":35.36,"y":57.83},"campo-cedro":{"x":54.11,"y":19.5},"tartufo":{"x":85.36,"y":68.67},"bagoga":{"x":47.14,"y":44.33},"mugolone":{"x":52.14,"y":52.33},"terzi":{"x":55.36,"y":43.5},"vinattieri":{"x":51.07,"y":36.33},"trombicche":{"x":51.79,"y":35.67},"particolare":{"x":93.93,"y":13.83},"capitano":{"x":48.39,"y":68.17},"salefino":{"x":36.96,"y":7.83},"chiacchera":{"x":42.14,"y":37.5},"svitati":{"x":45.36,"y":41.33},"permalico":{"x":50.36,"y":69.5},"grattacielo":{"x":54.82,"y":36.17},"papei":{"x":66.61,"y":63.83},"nonna-gina":{"x":33.93,"y":78.5},"pretto":{"x":55.36,"y":45.33},"tellina":{"x":52.32,"y":37.5},"nannini":{"x":54.64,"y":31},"zest":{"x":61.96,"y":56.5},"campo":{"x":60.54,"y":51.83},"fonte-gaia":{"x":59.29,"y":49.33},"palazzo-pubblico":{"x":63.57,"y":55.67},"torre-mangia":{"x":63.57,"y":55.67},"duomo":{"x":40.71,"y":57.5},"piccolomini":{"x":40.36,"y":57},"battistero":{"x":45.18,"y":54.83},"cripta":{"x":45.54,"y":56.5},"museo-opera":{"x":40,"y":61.67},"facciatone":{"x":40,"y":61.67},"porta-cielo":{"x":40.71,"y":57.5},"santa-maria-scala":{"x":42.86,"y":64.33},"pinacoteca":{"x":53.21,"y":75.33},"san-domenico":{"x":30.54,"y":33.67},"casa-caterina":{"x":41.07,"y":39.17},"san-francesco":{"x":76.96,"y":21.17},"san-bernardino":{"x":76.96,"y":21.17},"fortezza":{"x":6.07,"y":19.17},"orto-botanico":{"x":57.14,"y":92},"provenzano":{"x":67.86,"y":30.17},"contrada":{"x":60.54,"y":51.83},"__meta":{"w":560,"h":600,"zoom":15.677904468579053}};
