@@ -6,10 +6,26 @@
 <meta name="theme-color" content="#7b2d26">
 <meta name="description" content="イタリア・シエナのレストラン・郷土料理・観光名所ガイド。検索・タグ・地図リンク付き。">
 <title>シエナ 美食・観光ガイド</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="css/style.css">
+<script>
+/* セーフティネット: 何らかのスクリプトエラーで真っ白になっても原因を画面に表示する */
+window.addEventListener('error', function (e) {
+  try {
+    var box = document.getElementById('fatal-error');
+    if (!box) {
+      box = document.createElement('div');
+      box.id = 'fatal-error';
+      box.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#7b2d26;color:#fff;padding:12px 16px;font:13px/1.6 sans-serif;white-space:pre-wrap';
+      (document.body || document.documentElement).appendChild(box);
+    }
+    box.textContent = '読み込みエラーが発生しました。ページを再読み込みしてください。\n' +
+      (e.message || '') + ' ' + (e.filename ? '(' + e.filename.split('/').pop() + ':' + e.lineno + ')' : '');
+  } catch (_) {}
+}, true);
+</script>
 </head>
 <body>
+<noscript><p style="padding:16px;font:15px sans-serif">このサイトの表示にはJavaScriptを有効にしてください。</p></noscript>
 <header class="site-header">
   <div class="header-inner">
     <h1 class="site-title">シエナ 美食・観光ガイド</h1>
