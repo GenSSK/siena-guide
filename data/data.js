@@ -272,6 +272,9 @@ window.SIENA_DATA = {
     {
       id: "san-giuseppe",
       lat: 43.315489, lng: 11.331754, zone: "南部・外周部",
+      candidate: true,
+      reservation: "電話予約のみ（ビステッカも名物）",
+      gmap: "https://maps.app.goo.gl/XeQHRTL5T1ZVmYz1A",
       name: "ラ・タヴェルナ・ディ・サン・ジュゼッペ",
       nameOrig: "La Taverna di San Giuseppe",
       categories: ["クラシック"],
@@ -288,7 +291,7 @@ window.SIENA_DATA = {
       highlights: "紀元前3世紀のエトルリア時代の家を利用し、岩盤を掘ったワインセラー（700種超）を持つ歴史的店。職人手彫りのテーブル。伝統＋創意のバランスとサービスの温かさで知られ、2007年からミシュラン掲載、2026年版ビブグルマン。予約は数日〜数ヶ月前推奨、19時/21時の2部制が多い。",
       dishes: ["tartufo", "bistecca", "cinghiale", "pici", "ribollita", "gnudi"],
       specialties: ["トリュフのニョッキ／マルファッティ", "ガッレット・アル・マットーネ（レンガ窯焼き若鶏）", "ビステッカ", "リコッタとほうれん草のマルファッティ"],
-      tags: ["クラシック", "ミシュラン", "洞窟", "予約必須", "ワイン", "高級寄り"],
+      tags: ["候補", "ディナー候補", "ビステッカ", "クラシック", "ミシュラン", "洞窟", "予約必須", "ワイン", "高級寄り"],
       image: "https://lh3.googleusercontent.com/p/AF1QipPLk-qkvnPh0tX2pH5TD4SfU7YfFIGrEe-mM4TH=w1000"
     },
     {
@@ -382,6 +385,9 @@ window.SIENA_DATA = {
     {
       id: "bagoga",
       lat: 43.319322, lng: 11.329567, zone: "サン・ドメニコ／フォンテブランダ",
+      candidate: true,
+      reservation: "ネット予約可（7/6は満席・7/7は空きあり）",
+      gmap: "https://maps.app.goo.gl/SVMnPTSbiZeFJodL8",
       name: "ラ・グロッタ・ディ・サンタ・カテリーナ・ダ・バゴガ",
       nameOrig: "Grotta Santa Caterina da Bagoga",
       categories: ["有名", "クラシック"],
@@ -398,7 +404,7 @@ window.SIENA_DATA = {
       highlights: "1973年創業。シェフのピエリーノ・ファニャーニ氏はパリオの元騎手『バゴガ』として知られるカリスマで、1986年にイタリア全土の料理コンクール最優秀賞を受賞。中世の洞窟のような店内に騎手時代のパリオ写真。",
       dishes: ["bistecca", "cinta-senese", "pici"],
       specialties: ["キアニーナ牛のビステッカ", "ラルド・ディ・コロンナータ巻きチンタ豚フィレ", "低温で2時間以上煮込んだインド鶏", "サプライズ・テイスティング（約€70）"],
-      tags: ["有名", "クラシック", "洞窟", "パリオ", "物語性"],
+      tags: ["候補", "ディナー候補", "ビステッカ", "有名", "クラシック", "洞窟", "パリオ", "物語性"],
       image: "https://lh3.googleusercontent.com/p/AF1QipMDzBw_5O12yQkcuxn389kh88XPZD1JqqeTaxKG=w1000"
     },
     {
@@ -774,6 +780,82 @@ window.SIENA_DATA = {
       specialties: ["リコッタとマジョラムの自家製ラビオリ", "レモンアイオリのイカのフリット"],
       tags: ["有名", "ロマンチック", "ワイン", "小皿"],
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1aYT1qLWbRN_CNcAVWKBh0vQQ6UobiLpTj-CT9JB8w&s=10"
+    }
+  ,
+    {
+      id: "locanda-oste",
+      lat: 43.3166162, lng: 11.3328905, zone: "カンポ広場周辺",
+      name: "ロカンダ・デッロステ",
+      nameOrig: "Locanda dell'Oste",
+      categories: ["トスカーナ料理"],
+      badges: ["ディナー候補", "電話予約のみ"],
+      candidate: true,
+      reservation: "電話予約のみ",
+      price: "要確認",
+      priceLevel: 3,
+      hours: "要確認（訪問前に確認）",
+      closed: "要確認",
+      address: "シエナ歴史地区（カンポ広場周辺）",
+      area: "カンポ広場周辺",
+      mapQuery: "Locanda dell'Oste, Siena, Italy",
+      gmap: "https://maps.app.goo.gl/1faTg1ps2ZhW7fjcA",
+      site: "",
+      reviews: "ディナー候補（トスカーナ料理全般）。予約は電話のみ。",
+      highlights: "トスカーナ料理全般を提供。ビステッカなどの肉料理も。ディナーの候補店。予約は電話のみ受付。",
+      dishes: ["bistecca", "pici", "cinghiale"],
+      specialties: ["トスカーナ料理各種", "ビステッカ"],
+      tags: ["候補", "ディナー候補", "トスカーナ料理", "予約:電話"],
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW91iCJQMrVKLKyDhybnvPcObmGvseoYpQ6d8LfwdcpA&s=10"
+    },
+    {
+      id: "fonte-giusta",
+      lat: 43.3256405, lng: 11.3271627, zone: "メディチ要塞／北西部",
+      name: "トラットリア・フォンテ・ジュスタ",
+      nameOrig: "Trattoria Fonte Giusta",
+      categories: ["ビステッカ専門"],
+      badges: ["ディナー候補", "ネット予約可"],
+      candidate: true,
+      reservation: "ネット予約可（空き状況は要確認）",
+      price: "要確認",
+      priceLevel: 3,
+      hours: "要確認（訪問前に確認）",
+      closed: "要確認",
+      address: "シエナ歴史地区 北部（フォンテ・ジュスタ付近）",
+      area: "北部（カモッリア門付近）",
+      mapQuery: "Trattoria Fonte Giusta, Siena, Italy",
+      gmap: "https://maps.app.goo.gl/cfHFdNGSz1PZvCBC6",
+      site: "",
+      reviews: "ビステッカ専門のディナー候補。ネット予約が可能（空き状況は要確認）。",
+      highlights: "ビステッカ・アッラ・フィオレンティーナが名物のトラットリア。ネット予約が可能（空き状況は要確認）。歴史地区北部。",
+      dishes: ["bistecca"],
+      specialties: ["ビステッカ・アッラ・フィオレンティーナ"],
+      tags: ["候補", "ディナー候補", "ビステッカ", "予約:ネット"],
+      image: "https://lh3.googleusercontent.com/p/AF1QipO21kwePIgB6zYrvAjlW_WiGhp1GJsendTkRFWa=w1000"
+    },
+    {
+      id: "sosta-violante",
+      lat: 43.3174485, lng: 11.3363454, zone: "カンポ広場周辺",
+      name: "オステリア・ラ・ソスタ・ディ・ヴィオランテ",
+      nameOrig: "Osteria La Sosta di Violante",
+      categories: ["トスカーナ料理"],
+      badges: ["ディナー候補", "メール・電話予約"],
+      candidate: true,
+      reservation: "Gmail（メール）・電話で予約",
+      price: "要確認",
+      priceLevel: 3,
+      hours: "要確認（訪問前に確認）",
+      closed: "要確認",
+      address: "シエナ歴史地区 東部（ヴィア・パンタネート付近）",
+      area: "東部（サン・ジョルジョ付近）",
+      mapQuery: "Osteria La Sosta di Violante, Siena, Italy",
+      gmap: "https://maps.app.goo.gl/XPXMb8g29uahuiUk8",
+      site: "",
+      reviews: "トスカーナ料理全般のディナー候補。予約はメール（Gmail）または電話。",
+      highlights: "トスカーナ料理全般を提供するオステリア。ディナー候補。予約はメール（Gmail）または電話で受付。",
+      dishes: ["bistecca", "pici", "cinghiale"],
+      specialties: ["トスカーナ料理各種"],
+      tags: ["候補", "ディナー候補", "トスカーナ料理", "予約:メール/電話"],
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImup6H4sl330y7tj7miee4Ygx6lFLhIZ4hhktcC92MA&s=10"
     }
   ],
 
@@ -1204,4 +1286,4 @@ window.SIENA_DATA = {
 
 
 /* 各地点の基準地図(images/map/siena-base.jpg 560x600)上の位置(%) */
-window.SIENA_PROJ = {"san-giuseppe":{"x":61.79,"y":77},"logge":{"x":72.5,"y":51.33},"divo":{"x":35.36,"y":57.83},"campo-cedro":{"x":54.11,"y":19.5},"tartufo":{"x":85.36,"y":68.67},"bagoga":{"x":47.14,"y":44.33},"mugolone":{"x":52.14,"y":52.33},"terzi":{"x":55.36,"y":43.5},"vinattieri":{"x":51.07,"y":36.33},"trombicche":{"x":51.79,"y":35.67},"particolare":{"x":93.93,"y":13.83},"capitano":{"x":48.39,"y":68.17},"salefino":{"x":36.96,"y":7.83},"chiacchera":{"x":42.14,"y":37.5},"svitati":{"x":45.36,"y":41.33},"permalico":{"x":50.36,"y":69.5},"grattacielo":{"x":54.82,"y":36.17},"papei":{"x":66.61,"y":63.83},"nonna-gina":{"x":33.93,"y":78.5},"pretto":{"x":55.36,"y":45.33},"tellina":{"x":52.32,"y":37.5},"nannini":{"x":54.64,"y":31},"zest":{"x":61.96,"y":56.5},"campo":{"x":60.54,"y":51.83},"fonte-gaia":{"x":59.29,"y":49.33},"palazzo-pubblico":{"x":63.57,"y":55.67},"torre-mangia":{"x":63.57,"y":55.67},"duomo":{"x":40.71,"y":57.5},"piccolomini":{"x":40.36,"y":57},"battistero":{"x":45.18,"y":54.83},"cripta":{"x":45.54,"y":56.5},"museo-opera":{"x":40,"y":61.67},"facciatone":{"x":40,"y":61.67},"porta-cielo":{"x":40.71,"y":57.5},"santa-maria-scala":{"x":42.86,"y":64.33},"pinacoteca":{"x":53.21,"y":75.33},"san-domenico":{"x":30.54,"y":33.67},"casa-caterina":{"x":41.07,"y":39.17},"san-francesco":{"x":76.96,"y":21.17},"san-bernardino":{"x":76.96,"y":21.17},"fortezza":{"x":6.07,"y":19.17},"orto-botanico":{"x":57.14,"y":92},"provenzano":{"x":67.86,"y":30.17},"contrada":{"x":60.54,"y":51.83},"__meta":{"w":560,"h":600,"zoom":15.677904468579053}};
+window.SIENA_PROJ = {"san-giuseppe":{"x":60.18,"y":81.17},"logge":{"x":69.46,"y":58.83},"divo":{"x":37.14,"y":64.5},"campo-cedro":{"x":53.39,"y":31.17},"tartufo":{"x":80.71,"y":73.83},"bagoga":{"x":47.5,"y":52.67},"mugolone":{"x":51.79,"y":59.83},"terzi":{"x":54.46,"y":52},"vinattieri":{"x":50.89,"y":45.67},"trombicche":{"x":51.61,"y":45.17},"particolare":{"x":88.21,"y":26.17},"capitano":{"x":48.57,"y":73.67},"salefino":{"x":38.57,"y":21},"chiacchera":{"x":43.04,"y":46.83},"svitati":{"x":45.89,"y":50.17},"permalico":{"x":50.18,"y":74.67},"grattacielo":{"x":54.11,"y":45.67},"papei":{"x":64.46,"y":69.67},"nonna-gina":{"x":35.89,"y":82.5},"pretto":{"x":54.64,"y":53.67},"tellina":{"x":51.96,"y":46.83},"nannini":{"x":53.93,"y":41.17},"zest":{"x":60.36,"y":63.33},"locanda-oste":{"x":66.79,"y":72.83},"fonte-giusta":{"x":33.57,"y":5.67},"sosta-violante":{"x":86.79,"y":66.67},"campo":{"x":59.11,"y":59.33},"fonte-gaia":{"x":58.04,"y":57.17},"palazzo-pubblico":{"x":61.61,"y":62.5},"torre-mangia":{"x":61.61,"y":62.5},"duomo":{"x":41.96,"y":64.33},"piccolomini":{"x":41.43,"y":63.83},"battistero":{"x":45.71,"y":62},"cripta":{"x":46.07,"y":63.33},"museo-opera":{"x":41.25,"y":67.83},"facciatone":{"x":41.25,"y":67.83},"porta-cielo":{"x":41.96,"y":64.33},"santa-maria-scala":{"x":43.75,"y":70.33},"pinacoteca":{"x":52.68,"y":79.83},"san-domenico":{"x":33.04,"y":43.5},"casa-caterina":{"x":42.14,"y":48.17},"san-francesco":{"x":73.39,"y":32.67},"san-bernardino":{"x":73.39,"y":32.67},"fortezza":{"x":11.61,"y":30.83},"orto-botanico":{"x":56.07,"y":94.33},"provenzano":{"x":65.54,"y":40.33},"contrada":{"x":59.11,"y":59.33},"__meta":{"w":560,"h":600,"zoom":15.479729321714617}};

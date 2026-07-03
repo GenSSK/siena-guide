@@ -294,3 +294,14 @@ img{max-width:100%;display:block}
   .zone-chip-inline{background:rgba(201,162,75,.14)}
   .loc-map,.mc-toggle,.mc-select,#leaflet-map{border-color:var(--line)}
 }
+
+/* ===== v5: ディナー候補 / 予約表示 ===== */
+.badge.cand{background:#2e7d46;color:#fff}
+.resv{display:inline-flex;align-items:center;gap:4px;font-weight:700;color:#2e7d46;
+  background:rgba(46,125,70,.10);padding:2px 9px;border-radius:999px}
+.m-info .resv-dd{color:#2e7d46;font-weight:700}
+@media (prefers-color-scheme:dark){
+  .resv{color:#7ed19b;background:rgba(126,209,155,.12)}
+  .m-info .resv-dd{color:#7ed19b}
+  .badge.cand{background:#2e7d46}
+}

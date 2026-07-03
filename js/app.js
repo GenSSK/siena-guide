@@ -74,9 +74,11 @@
 
   /* ---------- カード ---------- */
   function cardHtml(item, type) {
-    var badges = (item.badges || []).slice(0, 2).map(function (b, i) {
+    var badgeArr = (item.badges || []).slice(0, 2).map(function (b, i) {
       return '<span class="badge' + (i === 0 ? " gold" : "") + '">' + escapeHtml(b) + "</span>";
-    }).join("");
+    });
+    if (item.candidate) badgeArr.unshift('<span class="badge cand">🍖 ディナー候補</span>');
+    var badges = badgeArr.join("");
     var cats = (item.categories || []).map(function (c) {
       return '<span class="cat-pill">' + escapeHtml(c) + "</span>";
     }).join("");
@@ -84,6 +86,7 @@
 
     var metaBits = [];
     if (item.price) metaBits.push('<span>💰 ' + escapeHtml(item.price) + "</span>");
+    if (item.reservation) metaBits.push('<span class="resv">🎫 ' + escapeHtml(item.reservation) + "</span>");
     if (item.zone) metaBits.push('<span class="zone-chip-inline">📍 ' + escapeHtml(item.zone) + "</span>");
     else if (item.area) metaBits.push('<span>📍 ' + escapeHtml(item.area) + "</span>");
     if (type === "foods" && item.restaurants) metaBits.push('<span>🍽️ ' + item.restaurants.length + "軒で提供</span>");
@@ -317,7 +320,8 @@
       locMapHtml(item.id, type, "modal-loc") + "</div>";
   }
   function mapChip(item) {
-    var link = '<a class="link-chip map" href="' + mapUrl(item.mapQuery || item.name + " Siena Italy") +
+    var href = item.gmap ? item.gmap : mapUrl(item.mapQuery || item.name + " Siena Italy");
+    var link = '<a class="link-chip map" href="' + escapeAttr(href) +
       '" target="_blank" rel="noopener">🗺️ Googleマップで開く</a>';
     var imgs = '<a class="link-chip" href="' + imgSearchUrl((item.nameOrig || item.name) + " Siena") +
       '" target="_blank" rel="noopener">📷 写真を検索</a>';
@@ -361,6 +365,7 @@
   function restaurantModal(item) {
     var info = '<dl class="m-info">' +
       row("カテゴリー", (item.categories || []).join(" / ")) + row("価格帯", item.price) +
+      (item.reservation ? '<dt>予約</dt><dd class="resv-dd">' + escapeHtml(item.reservation) + "</dd>" : "") +
       row("営業時間", item.hours) + row("定休", item.closed) +
       row("地区", item.zone) + row("住所", item.address) + "</dl>";
     return media(item, true) + '<div class="m-content">' +

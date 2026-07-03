@@ -42,6 +42,9 @@ QUERIES = {
     "tellina": "Trattoria La Tellina Siena",
     "nannini": "Nannini Siena pasticceria caffe",
     "zest": "Zest ristorante Siena Costa dei Barbieri interno",
+    "locanda-oste": "Locanda dell'Oste Siena ristorante",
+    "fonte-giusta": "Trattoria Fonte Giusta Siena ristorante",
+    "sosta-violante": "Osteria La Sosta di Violante Siena",
 }
 
 RE_MAPS = re.compile(r"https://lh3\.googleusercontent\.com/p/AF1Qip[A-Za-z0-9_-]+")
